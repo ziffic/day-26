@@ -9,6 +9,14 @@
 # print(result)
 
 # CHALLENGE THREE
-f = open("file1.txt", "r")
-result = [int(n.strip('\n')) for n in f if n in open("file2.txt", "r")]
-print(result)
+# f = open("file1.txt", "r")
+# result = [int(n) for n in f if n in open("file2.txt", "r")]
+# print(result)
+
+# CHALLENGE FOUR
+# HINT -> passed_students = {student:score for (student, score) in students_scores.items() if score > 70}
+# sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+# result = {word:len(word) for word in sentence.split()}
+# print(result)
+
+# CHALLENGE FIVE
